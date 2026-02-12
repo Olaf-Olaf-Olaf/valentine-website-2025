@@ -5,17 +5,17 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Anokhi",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine 🌹?",
+    pageTitle: "Will You Be My Galentine 🌹?",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '💖', '💝', '💗'],  // Heart emojis
+        bears: ['🧸']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February, 14th 2025?🌹", // The big question!
+            text: "Will you be my Galentine on February, 14th 2026?💝", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
         }
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
+        extreme: "WOOOOW You love me that much?? 😊🚀💝",  // Shows when they go past 5000%
         high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        normal: "And beyond!"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
         title: "Yay! Thank youu! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        message: "Now come get your gift, a big warm huuuug!",
         emojis: "🎁💖💝❤️💕"  // These will bounce around
     },
 
@@ -61,7 +61,7 @@ const CONFIG = {
         backgroundEnd: "#E7C6FF",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#E4C1F9",     // Button color (should stand out against the background)
         buttonHover: "#DCD0FF",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#DEC0F1"             // Text color (make sure it's readable!)
+        textColor: "#FFE5E7"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://youtube.com/shorts/PCVODpOuAt4?si=Mgkyc5-sv-0lcPRP", // Music streaming URL
+        musicUrl: "https://youtu.be/yY15ASYeTdY?si=uL3n87lqaSqwbi5U", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 1                        // Volume level (0.0 to 1.0)
